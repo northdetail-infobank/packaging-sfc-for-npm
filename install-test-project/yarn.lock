@@ -3926,6 +3926,11 @@ launch-editor@^2.2.1:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
 
+library-npm-test@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/library-npm-test/-/library-npm-test-1.0.0.tgz#ce1af0a85c50dc4ec50c0b3f43fb9664a961145c"
+  integrity sha512-/tZ9mml3YjmwIASCpqZ9RgGgBESpLCvadU56/eYH6MrX0K2Zg6WaHBcYoiNtzF/HJfEhpd0K/IELiCGFVCoeCQ==
+
 loader-runner@^2.3.1, loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
