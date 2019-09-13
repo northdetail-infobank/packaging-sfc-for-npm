@@ -1,6 +1,7 @@
 // rollup.config.js
 import vue from 'rollup-plugin-vue';
-import scss from 'rollup-plugin-scss'
+import scss from 'rollup-plugin-scss';
+import i18n from 'rollup-plugin-i18n';
 import buble from 'rollup-plugin-buble';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
@@ -41,6 +42,7 @@ const globals = {
   // eg. jquery: '$'
 };
 
+
 // Customize configs for individual targets
 const buildFormats = [];
 if (!argv.format || argv.format === 'es') {
@@ -58,6 +60,12 @@ if (!argv.format || argv.format === 'es') {
       terser({
         output: {
           ecma: 6,
+        },
+      }),
+      i18n({
+        language: {
+          'msg_hello': 'Hello',
+          'msg_world': 'World!'
         },
       }),
     ],
@@ -87,6 +95,12 @@ if (!argv.format || argv.format === 'cjs') {
         },
       }),
       ...baseConfig.plugins.postVue,
+      i18n({
+        language: {
+          'msg_hello': 'Hello',
+          'msg_world': 'World!'
+        },
+      }),
     ],
   };
   buildFormats.push(umdConfig);
@@ -111,6 +125,12 @@ if (!argv.format || argv.format === 'iife') {
       terser({
         output: {
           ecma: 5,
+        },
+      }),
+      i18n({
+        language: {
+          'msg_hello': 'Hello',
+          'msg_world': 'World!'
         },
       }),
     ],

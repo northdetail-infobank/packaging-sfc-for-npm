@@ -1,0 +1,11 @@
+{
+  "test": {
+    "test": "テスト"
+  },
+  "dataTable": {
+    "notData": "該当するデータはありません"
+  },
+  "inputs_placeholder": {
+    "select": "選択してください"
+  }
+}

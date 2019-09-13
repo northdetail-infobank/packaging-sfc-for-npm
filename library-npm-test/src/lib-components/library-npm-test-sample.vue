@@ -7,6 +7,9 @@ export default {
             initCounter: 5,
         };
     },
+    created() {
+        console.log(__('msg_hello'), __('msg_world'));
+    },
 }
 </script>
 

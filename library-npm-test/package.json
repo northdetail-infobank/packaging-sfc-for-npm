@@ -1,6 +1,6 @@
 {
   "name": "library-npm-test",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/library-npm-test.ssr.js",
   "module": "dist/library-npm-test.esm.js",

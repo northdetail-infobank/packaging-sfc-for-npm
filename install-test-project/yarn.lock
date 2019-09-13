@@ -2968,6 +2968,11 @@ estraverse@^4.1.0, estraverse@^4.1.1:
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==
 
+estree-walker@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/estree-walker/-/estree-walker-0.6.1.tgz#53049143f40c6eb918b23671d1fe3219f3a1b362"
+  integrity sha512-SqmZANLWS0mnatqbSfRP5g8OXZC12Fgg1IwNtLsyHDzJizORW4khDfjPqJZsemPWBB2uqykUah5YpQ6epsqC/w==
+
 esutils@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.3.tgz#74d2eb4de0b8da1293711910d50775b9b710ef64"
@@ -4277,12 +4282,14 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-library-npm-test@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/library-npm-test/-/library-npm-test-1.0.3.tgz#1d05fef14a568f7d4cc44e4826668de1fc4d2c60"
-  integrity sha512-9VrTXtopbJy/hPJrAIM1IxGanL5/2K8T8/PG8kfkI8G9zGlXKvXRsW45OB45mKDJSjSvvSWO1t9SZa5sewdK5A==
+library-npm-test@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/library-npm-test/-/library-npm-test-1.0.8.tgz#0df3996086b36c8b41da1359494816339201ff37"
+  integrity sha512-kMzR+qPeeHGhqHVIWulaaV/pdZ+UytH4g7P59/LWANk5Nh9BupIFhL/CqU1h+AcMX17vPRTYRREYuDrqvMc9zA==
   dependencies:
     node-sass "^4.12.0"
+    rollup-plugin-i18n "^0.3.1"
+    rollup-plugin-scss "^1.0.2"
     sass-loader "^7.1.0"
     style-loader "^1.0.0"
     stylus "^0.54.5"
@@ -4848,7 +4855,7 @@ node-res@^5.0.1:
     on-finished "^2.3.0"
     vary "^1.1.2"
 
-node-sass@^4.12.0:
+node-sass@4, node-sass@^4.12.0:
   version "4.12.0"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.12.0.tgz#0914f531932380114a30cc5fa4fa63233a25f017"
   integrity sha512-A1Iv4oN+Iel6EPv77/HddXErL2a+gZ4uBeZUy+a8O35CFYTXhgA8MgLCWBtwpGZdCvTvQ9d+bQxX/QC36GDPpQ==
@@ -6465,6 +6472,28 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rollup-plugin-i18n@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-i18n/-/rollup-plugin-i18n-0.3.1.tgz#0a68a19292fc6a745b37dbd5896e39710c07c127"
+  integrity sha512-VHAUnMnNLD2o532DYQFXreCmKCzMzqW9zpvGw6zeyFoUtgf3Pu3dVhLz7EpO+DUGCmYZ6A+SRJVbfNxfVNsAyw==
+  dependencies:
+    rollup-pluginutils "^2.0.1"
+
+rollup-plugin-scss@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-scss/-/rollup-plugin-scss-1.0.2.tgz#ebc1f32518ba9b213b3d98ad6ed2674f8e34bb29"
+  integrity sha512-5KWIomRCMOY1w1U+Kaa69k2L0EuYcctrO/ma42tD67eOPrZ6v1KTco/fWGNttPRnNNdvczytiZFL8u78xEyt9A==
+  dependencies:
+    node-sass "4"
+    rollup-pluginutils "2"
+
+rollup-pluginutils@2, rollup-pluginutils@^2.0.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/rollup-pluginutils/-/rollup-pluginutils-2.8.1.tgz#8fa6dd0697344938ef26c2c09d2488ce9e33ce97"
+  integrity sha512-J5oAoysWar6GuZo0s+3bZ6sVZAC0pfqKz68De7ZgDi5z63jOVZn1uJL/+z1jeKHNbGII8kAyHF5q8LnxSX5lQg==
+  dependencies:
+    estree-walker "^0.6.1"
 
 run-queue@^1.0.0, run-queue@^1.0.3:
   version "1.0.3"
