@@ -13,6 +13,7 @@ export default {
 <template>
     <div class="library-npm-test-sample">
         <p>The counter is set to <b>{{counter}}</b>.</p>
+        <v-btn>test v-btn</v-btn>
         <button @click="counter += 1">Click +1</button>
         <button @click="counter -= 1">Click -1</button>
         <button @click="counter = initCounter">Reset</button>

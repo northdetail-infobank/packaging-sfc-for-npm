@@ -143,19 +143,19 @@ var server = createInjectorSSR;/* script */
 var __vue_script__ = script;
 
 /* template */
-var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"library-npm-test-sample"},[_vm._ssrNode("<p>The counter is set to <b>"+_vm._ssrEscape(_vm._s(_vm.counter))+"</b>.</p> <button>Click +1</button> <button>Click -1</button> <button>Reset</button>")])};
+var __vue_render__ = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"library-npm-test-sample"},[_vm._ssrNode("<p>The counter is set to <b>"+_vm._ssrEscape(_vm._s(_vm.counter))+"</b>.</p> "),_c('v-btn',[_vm._v("test v-btn")]),_vm._ssrNode(" <button>Click +1</button> <button>Click -1</button> <button>Reset</button>")],2)};
 var __vue_staticRenderFns__ = [];
 
   /* style */
   var __vue_inject_styles__ = function (inject) {
     if (!inject) { return }
-    inject("data-v-2d09d2b4_0", { source: ".library-npm-test-sample[data-v-2d09d2b4]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.library-npm-test-sample p[data-v-2d09d2b4]{margin:0 0 1em}", map: undefined, media: undefined });
+    inject("data-v-4fc2d126_0", { source: ".library-npm-test-sample[data-v-4fc2d126]{display:block;width:400px;margin:25px auto;border:1px solid #ccc;background:#eaeaea;text-align:center;padding:25px}.library-npm-test-sample p[data-v-4fc2d126]{margin:0 0 1em}", map: undefined, media: undefined });
 
   };
   /* scoped */
-  var __vue_scope_id__ = "data-v-2d09d2b4";
+  var __vue_scope_id__ = "data-v-4fc2d126";
   /* module identifier */
-  var __vue_module_identifier__ = "data-v-2d09d2b4";
+  var __vue_module_identifier__ = "data-v-4fc2d126";
   /* functional template */
   var __vue_is_functional_template__ = false;
 

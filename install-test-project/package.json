@@ -11,7 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "library-npm-test": "^1.0.0",
+    "library-npm-test": "^1.0.3",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {}

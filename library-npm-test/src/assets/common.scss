@@ -1,0 +1,58 @@
+@import 'variables';
+
+// ============================================================
+// Over Class
+// ============================================================
+.v-label,
+.v-input input::placeholder {
+  font-size: $font_size-base !important;
+}
+
+// .theme--dark.accent--text {
+//   color: #fff !important;
+//   caret-color: #fff !important;
+// }
+
+.v-messages {
+  min-height: 18px !important;
+}
+
+.v-input--selection-controls {
+  &:not(.v-input--hide-details) {
+    .v-input__slot {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+// ============================================================
+// Add Style
+// ============================================================
+// base html
+h1 {
+  font-size: $font_size-h1;
+}
+
+h2 {
+  font-size: $font_size-base;
+}
+
+// color
+.sclc-color--bg {
+  background: $bg_color-input !important;
+}
+
+// font size
+.sclc-fontsize--small {
+  font-size: $font_size-small;
+}
+
+// transition
+.sclc-fade {
+  opacity: 1;
+  transition: all 1s ease-out;
+
+  &.active {
+    opacity: 0;
+  }
+}

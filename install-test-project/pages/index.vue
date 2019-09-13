@@ -9,6 +9,7 @@
         My legendary Nuxt.js project
       </h2>
       <div class="links">
+        <v-btn>test</v-btn>
         <library-npm-test-sample />
         <a
           href="https://nuxtjs.org/"
@@ -31,6 +32,11 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+
+Vue.use(Vuetify);
 
 export default {
   components: {

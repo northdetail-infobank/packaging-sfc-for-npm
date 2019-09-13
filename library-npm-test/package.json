@@ -1,6 +1,6 @@
 {
   "name": "library-npm-test",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/library-npm-test.ssr.js",
   "module": "dist/library-npm-test.esm.js",
@@ -16,7 +16,27 @@
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
-  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^2.6.10",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^1.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "rollup-plugin-scss": "^1.0.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.10",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
   "devDependencies": {
     "cross-env": "^5.2.0",
     "minimist": "^1.2.0",

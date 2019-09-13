@@ -1,5 +1,6 @@
 // rollup.config.js
 import vue from 'rollup-plugin-vue';
+import scss from 'rollup-plugin-scss'
 import buble from 'rollup-plugin-buble';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
