@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "node-sass": "^4.12.0",
+    "rollup-plugin-i18n": "^0.3.1",
     "rollup-plugin-scss": "^1.0.2",
     "sass-loader": "^7.1.0",
     "style-loader": "^1.0.0",
