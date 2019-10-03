@@ -1,0 +1,110 @@
+// ============================================================
+// variables common
+// ============================================================
+
+// Theme color
+// ============================================================
+$theme-secondary: #fff;
+$theme-accent: #203744;
+$theme-success: #2673bb;
+$theme-info: #203744;
+$theme-inactive: #ddd;
+$theme-warning: #b51e22;
+$theme-error:  #b51e22;
+
+$base-font_color: $theme-accent;
+$base-dark-font_color: $theme-secondary;
+
+// font size
+// ============================================================
+$font_size-base: 14px;
+$font_size-h1: 18px;
+$font_size-small: 10px;
+
+// backgraund
+// ============================================================
+$bg_color-input: rgba(#fff, 0.4);
+
+// ============================================================
+// variables components
+// ============================================================
+
+// BaseLabel
+// ============================================================
+$BaseLabel-display: inline-block;
+$BaseLabel-width: 80px;
+$BaseLabel-height: 32px;
+$BaseLabel-radius: 0;
+$BaseLabel-align: center;
+
+$BaseLabel-font_color: $base-dark-font_color;
+
+$BaseLabel-bg_color1: #4cae50; //取引中
+$BaseLabel-bg_color2: #2096f3; //申請中
+$BaseLabel-bg_color3: #ff5252; //取引終了
+
+$BaseLabel-bg_color4: #0f796b; //承認
+$BaseLabel-bg_color5: #fbc02d; //却下
+$BaseLabel-bg_color6: #afb238; //申請準備中
+
+$BaseLabel-bg_color7: #5132a5; //未契約
+$BaseLabel-bg_color8: #1697a6;//契約中
+
+// BaseButton
+// ============================================================
+$BaseButton-height: 45px;
+$BaseButton-radius: 5px;
+$BaseButton-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.16);
+$BaseButton-font-weight: 600;
+
+// BaseInput
+// ============================================================
+$BaseInput-label-mt: 0; // margin-top
+
+// Navigation
+// ============================================================
+$Navigation-width: 240px;
+$Navigation-width-mini: 56px;
+$Navigation-icon-font_size: 20px;
+$Navigation-padding: 0;
+$Navigation-font_color: $base-dark-font_color;
+
+// SearchPanel
+// ============================================================
+$SearchPanel-max-width: 700px;
+$SearchPanel-min-height: 51px;
+$SearchPanel-list-label-font_size: 12px;
+$SearchPanel-list-label-width: 8em;
+$SearchPanel-list-between: 20px;
+
+// UserTools
+// ============================================================
+$UserTools-width: 300;
+
+// TheDataTable
+// ============================================================
+$TheDataTable-cal-padding: 8px 15px;
+
+// TheSidebar
+// ============================================================
+$TheSidebar-width: $Navigation-width;
+$TheSidebar-width_mini: $Navigation-width-mini;
+$TheSidebar-bg_color: $theme-accent;
+
+// ============================================================
+// Original variables export
+// ============================================================
+:export {
+  /* stylelint-disable */
+  secondary: $theme-secondary;
+  accent: $theme-accent;
+  success: $theme-success;
+  info: $theme-info;
+  warning: $theme-warning;
+  error: $theme-error;
+  baseButtonRadius: $BaseButton-radius;
+  userToolsWidth: $UserTools-width;
+  sidebarWidth: $TheSidebar-width;
+  sidebarWidthMini: $TheSidebar-width_mini;
+  /* stylelint-enable */
+}

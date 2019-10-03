@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<title>library-npm-test cdn demo</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="../dist/library-npm-test.umd.js"></script>
+<link rel="stylesheet" href="../dist/library-npm-test.css">
+<div id="app">
+  <div>
+    <base-button :props-text="'test'"/>
+  </div>
+  <hr>
+  <div>
+    <base-axios-test />
+  </div>
+  <hr>
+  <div>
+    <base-vee-validate-test />
+  </div>
+  <hr>
+  <div>
+    <base-i18n-test />
+  </div>
+</div>
+<script type="text/javascript">
+    new Vue({ 
+    }).$mount('#app');
+</script>
