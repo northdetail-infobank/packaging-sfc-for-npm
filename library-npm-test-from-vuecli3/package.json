@@ -1,6 +1,6 @@
 {
   "name": "library-npm-test",
-  "version": "0.9.0",
+  "version": "0.0.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -24,7 +24,7 @@
     "src"
   ],
   "dependencies": {
-    "axios": "0.18.0",
+    "axios": "0.19.0",
     "core-js": "^2.6.5",
     "vue-i18n": "^8.14.1",
     "vuetify": "^2.0.19",
