@@ -21,19 +21,19 @@
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
+    "stylus-loader": "^7.1.0",
     "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "style-loader": "^1.0.0"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
     "rollup-plugin-i18n": "^0.3.1",
     "rollup-plugin-scss": "^1.0.2",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "style-loader": "^1.0.0",
     "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
+    "stylus-loader": "^7.1.0",
     "vue": "^2.6.10",
     "vuetify": "^1.5.5",
     "vuetify-loader": "^1.2.1"
@@ -46,7 +46,7 @@
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-terser": "^4.0.4",
-    "rollup-plugin-vue": "^5.0.0",
+    "rollup-plugin-vue": "^6.0.0",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
   }
